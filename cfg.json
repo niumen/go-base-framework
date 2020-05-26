@@ -1,0 +1,11 @@
+{
+  "log_config":{
+    "log_level":"info",
+    "max_age":30,
+    "rotation_time":1
+  },
+  "listen":"0.0.0.0:8086",
+  "mysql_addr_f":"root:passwd@tcp(127.0.0.1:3306)/db_name?charset=utf8&parseTime=True&loc=Local",
+  "mysql_addr_h":"root:passwd@tcp(127.0.0.1:3306)/db_name?charset=utf8&parseTime=True&loc=Local",
+  "mysql_addr_y":"root:passwd@tcp(127.0.0.1:3306)/db_name?charset=utf8&parseTime=True&loc=Local"
+}
